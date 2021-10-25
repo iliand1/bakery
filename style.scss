@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Great+Vibes&display=swap");
+$ffparagraph: "Amiri";
+$ffhead: "Great Vibes";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  overflow-y: hidden;
+  background: linear-gradient(
+      0deg,
+      rgba(24, 24, 23, 0.22),
+      rgba(24, 24, 23, 0.22)
+    ),
+    url("./assets/background-final.jpg");
+  background-position: bottom;
+  color: #fff;
+}
+.logo {
+  font-family: $ffhead;
+  font-size: 26px;
+  margin-left: 20px;
+  width: 15%;
+  letter-spacing: 0.105em;
+  cursor: pointer;
+}
+.menu,
+.button {
+  font-family: $ffparagraph;
+}
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .menu {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-evenly;
+    width: 100%;
+    transition: 0.1s ease-in-out;
+    .menu__text1,
+    .menu__text2,
+    .menu__text3,
+    .menu__text4 {
+      cursor: pointer;
+    }
+  }
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    position: relative;
+    bottom: 100px;
+    font-size: 64px;
+    font-family: $ffparagraph;
+    font-weight: normal;
+  }
+}
+.button {
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(35, 31, 31, 0.61);
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+.button:hover {
+  background: rgba(61, 55, 55, 0.61);
+}
+.menu__text1:hover,
+.menu__text2:hover,
+.menu__text3:hover,
+.menu__text4:hover {
+  text-decoration: underline 1.5px white;
+}
+.social-media {
+  display: flex;
+  margin-right: 50px;
+  width: 10%;
+  justify-content: space-between;
+}
+.social-media1,
+.social-media2,
+.social-media3 {
+  cursor: pointer;
+}
