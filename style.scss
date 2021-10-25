@@ -48,6 +48,11 @@ header {
     .menu__text3,
     .menu__text4 {
       cursor: pointer;
+      width: 90px;
+      display: flex;
+      justify-content: center;
+      height: 28px;
+      align-items: center;
     }
   }
 }
@@ -83,7 +88,7 @@ main {
 .menu__text2:hover,
 .menu__text3:hover,
 .menu__text4:hover {
-  text-decoration: underline 1.5px white;
+  border-bottom: 1px solid white;
 }
 .social-media {
   display: flex;
