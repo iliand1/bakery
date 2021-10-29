@@ -82,7 +82,6 @@ main {
   background: rgba(35, 31, 31, 0.61);
   transition: 0.1s ease-in-out;
   cursor: pointer;
-  
 }
 .button:hover {
   background: rgba(61, 55, 55, 0.61);
@@ -101,40 +100,28 @@ main {
 }
 .social-media1,
 .social-media2,
-.social-media3,.fas {
+.social-media3,
+.fas {
   cursor: pointer;
 }
-.fas{
+.fas {
   visibility: hidden;
-  
 }
-// .offcanvas-right a{
-//   width: 100%;
-//   color: red;
-//   background-color: black;
-//   display: flex;
-//   flex-direction: column;
-// }
-
-
-
-// Test of offcanvas
 
 .sidenav {
   font-family: Amiri;
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
   top: 0;
   right: 0;
-  background: rgba(23, 22, 22, 0.91);/* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+  background: rgba(23, 22, 22, 0.91);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.3s;
 }
 
-/* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   margin-bottom: 25px;
@@ -142,8 +129,8 @@ main {
   text-align: end;
   text-decoration: none;
   font-size: 18px;
-line-height: 32px;
-letter-spacing: 0.105em;
+  line-height: 32px;
+  letter-spacing: 0.105em;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -151,12 +138,10 @@ letter-spacing: 0.105em;
   transition: 0.1s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
   top: 15px;
@@ -164,8 +149,6 @@ letter-spacing: 0.105em;
   font-size: 36px;
   margin-left: 50px;
 }
-
-
 
 @media (max-width: 600px) {
   main h1 {
@@ -176,19 +159,18 @@ letter-spacing: 0.105em;
     position: relative;
     top: -150px;
   }
-  .social-media{
+  .social-media {
     width: 40%;
   }
-  .fas{
-   margin-left: 30px;
+  .fas {
+    margin-left: 30px;
     visibility: visible;
   }
-  .logo{
+  .logo {
     width: 30%;
   }
-  .button{
-  position: relative;
-    top: -50px;}
-
-
+  .button {
+    position: relative;
+    top: -50px;
   }
+}
