@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chez Ellie</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/hiraku@latest/css/hiraku.min.css">
-<script src="https://unpkg.com/hiraku@latest/js/hiraku.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/hiraku@latest/css/hiraku.min.css"
+    />
+    <script src="https://unpkg.com/hiraku@latest/js/hiraku.min.js"></script>
   </head>
   <body>
     <header>
@@ -28,14 +31,27 @@
         <div class="social-media3">
           <img src="./assets/Instagram.png" alt="" />
         </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">MENU</a>
+          <a href="#">NEWS</a>
+          <a href="#">RESERVATION</a>
+          <a href="#">CONTACT</a>
+        </div>
+
+        <!-- Use any element to open the sidenav -->
+
+        <i onclick="openNav()" class="fas fa-bars"></i>
       </div>
-      <i class="fas fa-bars" id="burger"></i>
-      <button class="hiraku-open-btn" id="offcanvas-btn-right" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
+      <!-- <button class="hiraku-open-btn" id="offcanvas-btn-right" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
         <span class="hiraku-open-btn-line"></span>
       </button>
       <div class="offcanvas-right">
-        <ul><li>hogehoge</li></ul>
-      </div>
+        <ul><a href="#"><li>MENU</li></a></ul>
+        <ul><a href="#"><li>NEWS</li></a></ul>
+        <ul><a href="#"><li>RESERVATION</li></a></ul>
+        <ul><a href="#"><li>CONTACT</li></a></ul>
+      </div> -->
     </header>
     <main>
       <h1>Bakery with love</h1>
@@ -43,9 +59,11 @@
       <div class="button">OUR MENU</div>
     </main>
     <script src="./index.js"></script>
-    <script
-      src="https://kit.fontawesome.com/254efe06cd.js"
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
-    ></script>
+    />
   </body>
 </html>

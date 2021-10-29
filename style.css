@@ -137,7 +137,7 @@ main h1 {
   display: -ms-flexbox;
   display: flex;
   margin-right: 50px;
-  width: 10%;
+  width: 20%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -153,6 +153,72 @@ main h1 {
   visibility: hidden;
 }
 
+.sidenav {
+  font-family: Amiri;
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  right: 0;
+  background: rgba(23, 22, 22, 0.91);
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  padding-right: 50px;
+  text-align: end;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.105em;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-self: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 15px;
+  right: -5px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  -webkit-transition: margin-right .5s;
+  transition: margin-right .5s;
+  padding: 20px;
+}
+
 @media (max-width: 600px) {
   main h1 {
     font-size: 48px;
@@ -163,10 +229,10 @@ main h1 {
     top: -150px;
   }
   .social-media {
-    width: 30%;
+    width: 40%;
   }
   .fas {
-    margin-right: 20px;
+    margin-left: 30px;
     visibility: visible;
   }
   .logo {
