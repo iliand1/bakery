@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chez Ellie</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/hiraku@latest/css/hiraku.min.css">
+<script src="https://unpkg.com/hiraku@latest/js/hiraku.min.js"></script>
   </head>
   <body>
     <header>
@@ -27,11 +29,23 @@
           <img src="./assets/Instagram.png" alt="" />
         </div>
       </div>
+      <i class="fas fa-bars" id="burger"></i>
+      <button class="hiraku-open-btn" id="offcanvas-btn-right" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
+        <span class="hiraku-open-btn-line"></span>
+      </button>
+      <div class="offcanvas-right">
+        <ul><li>hogehoge</li></ul>
+      </div>
     </header>
     <main>
       <h1>Bakery with love</h1>
 
       <div class="button">OUR MENU</div>
     </main>
+    <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/254efe06cd.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
