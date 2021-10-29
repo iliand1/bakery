@@ -131,7 +131,7 @@ main {
   background: rgba(23, 22, 22, 0.91);/* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
@@ -147,7 +147,7 @@ letter-spacing: 0.105em;
   display: flex;
   flex-direction: column;
   justify-self: center;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -164,11 +164,7 @@ letter-spacing: 0.105em;
   margin-left: 50px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-right .5s;
-  padding: 20px;
-}
+
 
 @media (max-width: 600px) {
   main h1 {
