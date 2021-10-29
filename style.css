@@ -179,6 +179,7 @@ main h1 {
 /* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
+  margin-bottom: 25px;
   padding-right: 50px;
   text-align: end;
   text-decoration: none;
