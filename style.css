@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,8 +11,20 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-y: hidden;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(24, 24, 23, 0.22)), to(rgba(24, 24, 23, 0.22))), url("./assets/background-final.jpg");
-  background: linear-gradient(0deg, rgba(24, 24, 23, 0.22), rgba(24, 24, 23, 0.22)), url("./assets/background-final.jpg");
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(24, 24, 23, 0.22)),
+      to(rgba(24, 24, 23, 0.22))
+    ),
+    url("./assets/background-final.jpg");
+  background: linear-gradient(
+      0deg,
+      rgba(24, 24, 23, 0.22),
+      rgba(24, 24, 23, 0.22)
+    ),
+    url("./assets/background-final.jpg");
   background-position: bottom;
   color: #fff;
 }
@@ -39,11 +51,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 header .menu {
@@ -52,8 +64,8 @@ header .menu {
   display: flex;
   font-size: 14px;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   width: 100%;
   -webkit-transition: 0.1s ease-in-out;
   transition: 0.1s ease-in-out;
@@ -69,12 +81,12 @@ header .menu .menu__text4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 28px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main {
@@ -84,14 +96,14 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main h1 {
@@ -110,11 +122,11 @@ main h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: rgba(35, 31, 31, 0.61);
   -webkit-transition: 0.1s ease-in-out;
   transition: 0.1s ease-in-out;
@@ -139,8 +151,8 @@ main h1 {
   margin-right: 50px;
   width: 20%;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .social-media1,
@@ -184,8 +196,8 @@ main h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   justify-self: center;
   -webkit-transition: 0.1s;
   transition: 0.1s;
