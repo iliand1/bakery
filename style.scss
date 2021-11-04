@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri&family=Great+Vibes&display=swap");
+
 $ffparagraph: "Amiri";
 $ffhead: "Great Vibes";
 * {
@@ -6,20 +7,22 @@ $ffhead: "Great Vibes";
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   min-height: 100vh;
   width: 100vw;
   height: 100vh;
   overflow-y: hidden;
   background: linear-gradient(
-      0deg,
-      rgba(24, 24, 23, 0.22),
-      rgba(24, 24, 23, 0.22)
-    ),
-    url("./assets/background-final.jpg");
+                  0deg,
+                  rgba(24, 24, 23, 0.22),
+                  rgba(24, 24, 23, 0.22)
+  ),
+  url("./assets/background-final.jpg");
   background-position: bottom;
-  color: #fff;
+  color: white;
 }
+
 .logo {
   font-family: $ffhead;
   font-size: 26px;
@@ -28,10 +31,12 @@ body {
   letter-spacing: 0.105em;
   cursor: pointer;
 }
+
 .menu,
 .button {
   font-family: $ffparagraph;
 }
+
 header {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
@@ -39,12 +44,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   .menu {
     display: flex;
     font-size: 14px;
     justify-content: space-evenly;
     width: 100%;
     transition: 0.1s ease-in-out;
+
     .menu__text1,
     .menu__text2,
     .menu__text3,
@@ -58,12 +65,14 @@ header {
     }
   }
 }
+
 main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   h1 {
     position: relative;
     bottom: 100px;
@@ -72,6 +81,7 @@ main {
     font-weight: normal;
   }
 }
+
 .button {
   font-size: 16px;
   width: 200px;
@@ -83,33 +93,38 @@ main {
   transition: 0.1s ease-in-out;
   cursor: pointer;
 }
+
 .button:hover {
   background: rgba(61, 55, 55, 0.61);
 }
+
 .menu__text1:hover,
 .menu__text2:hover,
 .menu__text3:hover,
 .menu__text4:hover {
   border-bottom: 1px solid white;
 }
+
 .social-media {
   display: flex;
   margin-right: 50px;
   width: 20%;
   justify-content: space-between;
 }
+
 .social-media1,
 .social-media2,
 .social-media3,
 .fas {
   cursor: pointer;
 }
+
 .fas {
   visibility: hidden;
 }
 
 .sidenav {
-  font-family: Amiri;
+  font-family: Amiri,sans-serif;
   height: 100%;
   width: 0;
   position: fixed;
