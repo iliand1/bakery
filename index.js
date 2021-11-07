@@ -11,3 +11,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0px";
 }
+new fullpage('#fullpage', {
+    autoScrolling:true,
+    scrollHorizontally: true
+});

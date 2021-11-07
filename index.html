@@ -10,54 +10,70 @@
             rel="stylesheet"
             href="https://unpkg.com/hiraku@latest/css/hiraku.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+          integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
             integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
             crossorigin="anonymous"
     />
-    <script src="https://unpkg.com/hiraku@latest/js/hiraku.min.js"></script>
+
 </head>
 <body>
-<section class="landing">
-    <header>
-        <div class="logo">Chez Ellie</div>
-        <div class="menu">
-            <div class="menu__text1">MENU</div>
-            <div class="menu__text2">NEWS</div>
-            <div class="menu__text3">RESERVATION</div>
-            <div class="menu__text4">CONTACT</div>
-        </div>
-        <div class="social-media">
-            <div class="social-media1">
-                <img src="./assets/Twitter.png" alt=""/>
+<div id="fullpage">
+    <div class="main section">
+        <header>
+            <div class="logo">Chez Ellie</div>
+            <div class="menu">
+                <div class="menu__text1">MENU</div>
+                <div class="menu__text2">NEWS</div>
+                <div class="menu__text3">RESERVATION</div>
+                <div class="menu__text4">CONTACT</div>
             </div>
-            <div class="social-media2">
-                <img src="./assets/Facebook.png" alt=""/>
+            <div class="social-media">
+                <div class="social-media1">
+                    <img src="./assets/Twitter.png" alt=""/>
+                </div>
+                <div class="social-media2">
+                    <img src="./assets/Facebook.png" alt=""/>
+                </div>
+                <div class="social-media3">
+                    <img src="./assets/Instagram.png" alt=""/>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">MENU</a>
+                    <a href="#">NEWS</a>
+                    <a href="#">RESERVATION</a>
+                    <a href="#">CONTACT</a>
+                </div>
+                <i onclick="openNav()" class="fas fa-bars"></i>
             </div>
-            <div class="social-media3">
-                <img src="./assets/Instagram.png" alt=""/>
-            </div>
-            <div id="mySidenav" class="sidenav">
-                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">MENU</a>
-                <a href="#">NEWS</a>
-                <a href="#">RESERVATION</a>
-                <a href="#">CONTACT</a>
-            </div>
-            <i onclick="openNav()" class="fas fa-bars"></i>
-        </div>
-    </header>
-    <main>
-        <h1>Bakery with love</h1>
-        <div class="button">OUR MENU</div>
-    </main>
-</section>
-<!--
-TODO:Other sections and do fullpage.js
--->
+        </header>
+        <main>
+            <h1>Bakery with love</h1>
+            <div class="button">OUR MENU</div>
+            <footer>
+                19 Av. du Commandant David Allègre, France
+            </footer>
+        </main>
 
+    </div>
+    <!--
+    TODO:Other sections and do fullpage.js
+    -->
+    <div class="about section">
+
+        <h1>About Our History</h1>
+
+    </div>
+</div>
+<script src="https://unpkg.com/hiraku@latest/js/hiraku.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./index.js"></script>
-
 </body>
 </html>
