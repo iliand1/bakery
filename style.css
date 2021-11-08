@@ -36,14 +36,17 @@
 }
 .wrapper-image img {
   width: 420px;
-  height: 550px;
+  max-width: 100%;
+  height: auto;
 }
 
 .wrapper {
+  height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 70px;
+  padding-inline: 70px;
+  place-items: center;
 }
 
 .logo {
