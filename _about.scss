@@ -26,16 +26,24 @@
     text-align: left;
     text-indent: 50px;
     padding-inline: 50px;
-    p{
+
+    p {
       margin-bottom: 30px;
     }
   }
 }
-.wrapper-image img{
-  width: 420px;
-  height: 550px;
+
+.wrapper-image {
+  display: grid;
+  place-content: center;
+
+  img {
+    width: 420px;
+    height: 550px;
+  }
 }
-.wrapper{
+
+.wrapper {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;

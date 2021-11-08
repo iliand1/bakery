@@ -30,6 +30,10 @@
   margin-bottom: 30px;
 }
 
+.wrapper-image {
+  display: grid;
+  place-content: center;
+}
 .wrapper-image img {
   width: 420px;
   height: 550px;
