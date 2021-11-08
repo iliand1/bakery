@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Great+Vibes&display=swap");
+@import "about", "main";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
