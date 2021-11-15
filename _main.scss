@@ -165,7 +165,7 @@ main {
   display: flex;
   flex-direction: column;
   transition: 0.1s;
-  align-items: end;
+  align-items: flex-end !important;
 
   .sidenav-twitter,
   .sidenav-instagram,
