@@ -1,0 +1,114 @@
+.approach {
+  padding-inline: 50px;
+  padding-block: 75px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)),
+    url("./assets/approach.jpg") center;
+  background-size: cover;
+
+  span {
+    font-family: Roboto Condensed, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.105em;
+    color: #ffffff;
+  }
+
+  h4 {
+    font-family: Amiri, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.105em;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-family: Amiri, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 109.8%;
+    letter-spacing: 0.105em;
+    color: #ffffff;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-family: Amiri, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0.105em;
+    color: #ffffff;
+  }
+
+  .cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .button {
+    font-family: Roboto Condensed, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #78c547;
+    border: 2px solid #629e3b;
+    background-color: transparent;
+  }
+
+  .cards-container {
+    .icon {
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+
+    h4,
+    span,
+    p {
+      padding-left: 30px;
+    }
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    background: rgba(35, 31, 31, 0.61);
+    box-shadow: inset 0px 4px 30px rgba(35, 31, 31, 0.61);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+
+    h4,
+    p {
+      text-align: center;
+    }
+  }
+
+  .card1 span {
+    color: gray;
+  }
+}

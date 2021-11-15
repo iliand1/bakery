@@ -31,6 +31,7 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
   height: 5em;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
 }
@@ -55,12 +56,7 @@ header .menu .menu__text4 {
 
 .main {
   min-height: 100vh;
-  background: linear-gradient(
-      0deg,
-      rgba(24, 24, 23, 0.22),
-      rgba(24, 24, 23, 0.22)
-    ),
-    url("./assets/background-final.jpg") bottom;
+  background: linear-gradient(0deg, rgba(24, 24, 23, 0.22), rgba(24, 24, 23, 0.22)), url("./assets/background-final.jpg") bottom;
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,6 +147,25 @@ main h1 {
   transition: 0.1s;
 }
 
+.sidenav-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: 0.1s;
+  align-items: end;
+}
+.sidenav-img .sidenav-twitter,
+.sidenav-img .sidenav-instagram,
+.sidenav-img .sidenav-facebook {
+  width: 20px;
+  height: 20px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .sidenav a:hover {
   color: #f1f1f1;
 }
@@ -178,7 +193,7 @@ main h1 {
   }
 
   .fas {
-    margin-left: 30px;
+    margin-left: auto;
     visibility: visible;
   }
 
@@ -193,7 +208,7 @@ main h1 {
 }
 .about {
   height: 100vh;
-  background: #e5e5e5;
+  background: #E5E5E5;
 }
 .about h1 {
   color: black;
@@ -207,8 +222,7 @@ main h1 {
   letter-spacing: 0.105em;
   text-align: center;
 }
-.about .title:before,
-.about .title:after {
+.about .title:before, .about .title:after {
   content: "—";
 }
 .about .text {
@@ -234,7 +248,7 @@ main h1 {
   width: 500px;
   max-width: 80%;
   height: auto;
-  box-shadow: 24px 30px 3px 0 rgba(250, 236, 229, 0.61);
+  box-shadow: 24px 30px 3px 0 rgba(98, 158, 59, 0.17);
 }
 
 .wrapper {
@@ -255,8 +269,7 @@ main h1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)),
-    url("./assets/approach.jpg") center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("./assets/approach.jpg") center;
   background-size: cover;
 }
 .approach span {
