@@ -56,7 +56,12 @@ header .menu .menu__text4 {
 
 .main {
   min-height: 100vh;
-  background: linear-gradient(0deg, rgba(24, 24, 23, 0.22), rgba(24, 24, 23, 0.22)), url("./assets/background-final.jpg") bottom;
+  background: linear-gradient(
+      0deg,
+      rgba(24, 24, 23, 0.22),
+      rgba(24, 24, 23, 0.22)
+    ),
+    url("./assets/background-final.jpg") bottom;
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
@@ -217,7 +222,7 @@ main h1 {
 }
 .about {
   height: 100vh;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 .about h1 {
   color: black;
@@ -231,7 +236,8 @@ main h1 {
   letter-spacing: 0.105em;
   text-align: center;
 }
-.about .title:before, .about .title:after {
+.about .title:before,
+.about .title:after {
   content: "—";
 }
 .about .text {
@@ -278,7 +284,8 @@ main h1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url("./assets/approach.jpg") center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)),
+    url("./assets/approach.jpg") center;
   background-size: cover;
 }
 .approach span {
