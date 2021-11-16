@@ -16,13 +16,14 @@
 
 main footer {
   font-family: "Amiri";
-  font-size: 11px;
+  font-size: 13px;
   position: absolute;
   bottom: 100px;
-  left: 70px;
+  left: 0;
+  margin-left: 20px;
 }
 
-.main main {
+main {
   position: relative;
 }
 
@@ -63,7 +64,7 @@ header .menu .menu__text4 {
 }
 
 main {
-  min-height: 100vh;
+  min-height: calc(100vh - 5em);
   display: flex;
   flex-direction: column;
   justify-content: center;
