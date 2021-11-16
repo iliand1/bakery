@@ -59,15 +59,14 @@ header {
 
 .main {
   min-height: 100vh;
+  color: white;
+  background-size: cover;
   background: linear-gradient(
       0deg,
       rgba(24, 24, 23, 0.22),
       rgba(24, 24, 23, 0.22)
     ),
-    url("./assets/background-final.jpg") bottom;
-  color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
+    url("./assets/background-final.jpg") no-repeat bottom;
 }
 
 main {
