@@ -1,5 +1,9 @@
 @media (max-width: 600px) {
   .about {
+    color: white;
+    background: url("./assets/bakery.jpg");
+    background-size: cover;
+
     h1 {
       color: white;
       position: absolute;
@@ -15,10 +19,6 @@
       margin-bottom: 25px;
     }
 
-    color: white;
-    background: url("./assets/bakery.jpg");
-    background-size: cover;
-
     .wrapper-image {
       display: none;
     }
@@ -28,12 +28,14 @@
       display: flex;
       position: relative;
     }
+
     .wrapper-text {
       width: 100%;
 
       display: flex;
       justify-content: center;
     }
+
     .text {
       position: relative;
       top: 30px;
@@ -63,18 +65,23 @@
     .title {
       font-size: 24px;
     }
+
     p {
       font-size: 12px;
     }
+
     h4 {
       font-size: 15px;
     }
+
     padding-block: 30px;
     height: 100vh;
+
     .cards-container {
       flex-direction: column;
       justify-content: space-evenly;
     }
+
     .card1,
     .card2,
     .card3 {
@@ -82,6 +89,7 @@
       width: 300px;
       height: 180px;
     }
+
     .button {
       position: relative;
       top: 10px;
