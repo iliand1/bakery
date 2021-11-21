@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri&family=Great+Vibes&display=swap");
-@import 'main', 'about', 'approach', "team";
+@import "main", "about", "approach", "menu", "mobile";
 
 * {
   margin: 0;
@@ -12,7 +12,6 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-
 }
 
 body::-webkit-scrollbar {
@@ -22,4 +21,3 @@ body::-webkit-scrollbar {
 html {
   scrollbar-width: none;
 }
-
