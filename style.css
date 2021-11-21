@@ -14,15 +14,6 @@
   font-family: "Amiri";
 }
 
-main footer {
-  font-family: "Amiri";
-  font-size: 13px;
-  position: absolute;
-  bottom: 60px;
-  left: 0;
-  margin-left: 10px;
-}
-
 main {
   position: relative;
 }
@@ -391,7 +382,7 @@ main h1 {
     font-weight: 400;
     line-height: 42px;
     letter-spacing: 0.105em;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   .about .wrapper-image {
     display: none;
@@ -407,6 +398,8 @@ main h1 {
     justify-content: center;
   }
   .about .text {
+    position: relative;
+    top: 30px;
     margin-top: 15px;
     padding-inline: 15px;
     font-family: Amiri, sans-serif;
@@ -450,6 +443,10 @@ main h1 {
     margin-bottom: 20px;
     width: 300px;
     height: 180px;
+  }
+  .approach .button {
+    position: relative;
+    top: 10px;
   }
 }
 * {
