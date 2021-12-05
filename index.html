@@ -1,171 +1,191 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Chez Ellie</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <link
-      rel="stylesheet"
-      href="https://unpkg.com/hiraku@latest/css/hiraku.min.css"
+            rel="stylesheet"
+            href="https://unpkg.com/hiraku@latest/css/hiraku.min.css"
     />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
-      integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+            integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
     />
     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous"
     />
-  </head>
-  <body>
-    <div id="fullpage">
-      <div class="main section">
+</head>
+<body>
+<div id="fullpage">
+    <div class="main section">
         <header>
-          <div class="logo">Chez Ellie</div>
-          <div class="menu">
-            <div class="menu__text1">MENU</div>
-            <div class="menu__text2">NEWS</div>
-            <div class="menu__text3">RESERVATION</div>
-            <div class="menu__text4">CONTACT</div>
-          </div>
-          <div class="social-media">
-            <div class="social-media-img">
-              <div class="social-media1">
-                <img src="./assets/Twitter.png" alt="" />
-              </div>
-              <div class="social-media2">
-                <img src="./assets/Facebook.png" alt="" />
-              </div>
-              <div class="social-media3">
-                <img src="./assets/Instagram.png" alt="" />
-              </div>
+            <div class="logo">Chez Ellie</div>
+            <div class="menu">
+                <div class="menu__text1">MENU</div>
+                <div class="menu__text2">NEWS</div>
+                <div class="menu__text3">RESERVATION</div>
+                <div class="menu__text4">CONTACT</div>
             </div>
-            <div id="mySidenav" class="sidenav">
-              <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-              <a href="#">MENU</a>
-              <a href="#">NEWS</a>
-              <a href="#">RESERVATION</a>
-              <a href="#">CONTACT</a>
-              <div class="sidenav-img">
-                <div class="sidenav-instagram">
-                  <img src="./assets/Instagram.png" alt="" />
+            <div class="social-media">
+                <div class="social-media-img">
+                    <div class="social-media1">
+                        <img src="./assets/Twitter.png" alt=""/>
+                    </div>
+                    <div class="social-media2">
+                        <img src="./assets/Facebook.png" alt=""/>
+                    </div>
+                    <div class="social-media3">
+                        <img src="./assets/Instagram.png" alt=""/>
+                    </div>
                 </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">MENU</a>
+                    <a href="#">NEWS</a>
+                    <a href="#">RESERVATION</a>
+                    <a href="#">CONTACT</a>
+                    <div class="sidenav-img">
+                        <div class="sidenav-instagram">
+                            <img src="./assets/Instagram.png" alt=""/>
+                        </div>
 
-                <div class="sidenav-facebook">
-                  <img src="./assets/Facebook.png" alt="" />
+                        <div class="sidenav-facebook">
+                            <img src="./assets/Facebook.png" alt=""/>
+                        </div>
+                        <div class="sidenav-twitter">
+                            <img src="./assets/Twitter.png" alt=""/>
+                        </div>
+                    </div>
                 </div>
-                <div class="sidenav-twitter">
-                  <img src="./assets/Twitter.png" alt="" />
-                </div>
-              </div>
+                <i onclick="openNav()" class="fas fa-bars"></i>
             </div>
-            <i onclick="openNav()" class="fas fa-bars"></i>
-          </div>
         </header>
         <main>
-          <h1>Bakery with love</h1>
-          <div class="button">OUR MENU</div>
+            <h1>Bakery with love</h1>
+            <div class="button">OUR MENU</div>
         </main>
-      </div>
+    </div>
 
-      <div class="about section">
+    <div class="about section">
         <div class="wrapper">
-          <div class="wrapper-text">
-            <h1 class="title">&nbsp;About Our History&nbsp;</h1>
-            <div class="text">
-              <p>
-                Since 2014 our intention has been to make traditional French
-                breads and pastries using artisan labor and equipment. Our
-                breads and pastries are handcrafted by several French-trained
-                artisans, jointed by highly-qualified local artisan bakers.
-              </p>
-              <p>
-                Handcrafted and baked throughout the day in our hearth deck
-                Bongard bread oven, we bake daily baguettes, boule, epis, rye
-                and last but not least, our sourdough.
-              </p>
+            <div class="wrapper-text">
+                <h1 class="title">&nbsp;About Our History&nbsp;</h1>
+                <div class="text">
+                    <p>
+                        Since 2014 our intention has been to make traditional French
+                        breads and pastries using artisan labor and equipment. Our
+                        breads and pastries are handcrafted by several French-trained
+                        artisans, jointed by highly-qualified local artisan bakers.
+                    </p>
+                    <p>
+                        Handcrafted and baked throughout the day in our hearth deck
+                        Bongard bread oven, we bake daily baguettes, boule, epis, rye
+                        and last but not least, our sourdough.
+                    </p>
 
-              <p>
-                Hand-rolled croissants, pain au chocolat, brioche, cookies,
-                tarts and biscuits, are prepared in plain view in our open
-                production bakery and often served still warm from our ovens. We
-                also offer a range of delicious sandwiches and Focaccia on our
-                lunch menu.
-              </p>
+                    <p>
+                        Hand-rolled croissants, pain au chocolat, brioche, cookies,
+                        tarts and biscuits, are prepared in plain view in our open
+                        production bakery and often served still warm from our ovens. We
+                        also offer a range of delicious sandwiches and Focaccia on our
+                        lunch menu.
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="wrapper-image">
-            <img src="./assets/bakery.jpg" alt="A bakery stand" />
-          </div>
+            <div class="wrapper-image">
+                <img src="./assets/bakery.jpg" alt="A bakery stand"/>
+            </div>
         </div>
-      </div>
-      <div class="approach section">
+    </div>
+    <div class="approach section">
         <div class="title">our approach</div>
         <div class="cards-container">
-          <div class="card1">
-            <div class="icon">
-              <img src="./assets/Bread%20and%20Rye.png" alt="" />
+            <div class="card1">
+                <div class="icon">
+                    <img src="./assets/Bread%20and%20Rye.png" alt=""/>
+                </div>
+                <span> 01/</span>
+                <h4>ONLY ORGANIC INGREDIENTS</h4>
+                <p>
+                    We buy premium flour without harmful chemicals from local farmers
+                </p>
             </div>
-            <span> 01/</span>
-            <h4>ONLY ORGANIC INGREDIENTS</h4>
-            <p>
-              We buy premium flour without harmful chemicals from local farmers
-            </p>
-          </div>
 
-          <div class="card2">
-            <div class="icon">
-              <img src="./assets/Croissant.png" alt="" />
+            <div class="card2">
+                <div class="icon">
+                    <img src="./assets/Croissant.png" alt=""/>
+                </div>
+                <span> 02/</span>
+                <h4>EXCEPTIONALLY FRESH BREAD</h4>
+                <p>Our bakers knead the dough every morning</p>
             </div>
-            <span> 02/</span>
-            <h4>EXCEPTIONALLY FRESH BREAD</h4>
-            <p>Our bakers knead the dough every morning</p>
-          </div>
 
-          <div class="card3">
-            <div class="icon">
-              <img src="./assets/Cake.png" alt="" />
+            <div class="card3">
+                <div class="icon">
+                    <img src="./assets/Cake.png" alt=""/>
+                </div>
+                <span> 03/</span>
+                <h4>RECIPES TESTED BY CENTURIES</h4>
+                <p>All ingredients are carefully calibrated down to the gram</p>
             </div>
-            <span> 03/</span>
-            <h4>RECIPES TESTED BY CENTURIES</h4>
-            <p>All ingredients are carefully calibrated down to the gram</p>
-          </div>
         </div>
 
         <div class="button">LEARN MORE</div>
-      </div>
-
-      <div class="our_menu section">
-        <h1>our menu</h1>
-        <div class="card-row">
-          <div class="card bread">
-            <p>bread</p>
-          </div>
-          <div class="card pastry">
-            <p>pastry</p>
-          </div>
-          <div class="card desserts">
-            <p>desserts</p>
-          </div>
-        </div>
-      </div>
-      <div class="team section"></div>
     </div>
 
-    <script src="https://unpkg.com/hiraku@latest/js/hiraku.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
-      integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="./index.js"></script>
-  </body>
+    <div class="our_menu section">
+        <h1>our menu</h1>
+        <div class="card-row">
+            <div class="card bread">
+                <p>bread</p>
+            </div>
+            <div class="card pastry">
+                <p>pastry</p>
+            </div>
+            <div class="card desserts">
+                <p>desserts</p>
+            </div>
+        </div>
+    </div>
+    <div class="team section">
+        <div class="image-wrapper"></div>
+        <div class="form-wrapper">
+            <h1>WANT TO BE A PART OF THE TEAM?</h1>
+            <form class="_form" autocomplete="off">
+                <input class="form" type="text" placeholder="Name"/>
+                <input class="form" type="text" placeholder="Phone number"/>
+                <input class="form" type="text" placeholder="E-mail"/>
+                <label>
+<textarea
+        placeholder="Tell us  something about yourself"
+>
+</textarea>
+                </label>
+                <p>
+                    I agree to the <span>Terms of Use</span> and
+                    <span>Privacy Policy</span>
+                </p>
+                <div class="button">SEND AN APPLICATION</div>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/hiraku@latest/js/hiraku.min.js"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+        integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+></script>
+<script src="./index.js"></script>
+</body>
 </html>
