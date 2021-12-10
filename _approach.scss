@@ -70,7 +70,11 @@
     border: 2px solid #629e3b;
     background-color: transparent;
   }
+  .button:hover {
 
+    border: 2px solid #446f29;
+    color: #446f29;
+  }
   .cards-container {
     .icon {
       display: flex;

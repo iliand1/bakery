@@ -1,6 +1,6 @@
 .about {
   height: 100vh;
-  background: #E5E5E5;
+  background: #F9F3F0;
 
   h1 {
     color: black;
@@ -56,4 +56,5 @@
   grid-template-columns: 1fr 1fr;
   padding-inline: 70px;
   place-items: center;
+  padding-block: 4%;
 }
